@@ -1,0 +1,15 @@
+<!--Resize code for IE browsers < IE 7 -->
+<!-- Found here: http://www.alistapart.com/articles/conflictingabsolutepositions/ -->
+
+#main {
+	height:expression(document.body.clientHeight);
+	width:expression(document.body.clientWidth-150);
+}
+
+#highlights #main {
+	width:expression(document.body.clientWidth-205);
+}
+
+#side {
+	height:expression(document.body.clientHeight);
+}
